@@ -14,7 +14,8 @@
         </title>
     </head>
     <body>
-      </html>
+     <a href="pridat.php">Přidat Kontakt</a>
+
       <table id="adresar">
             <tr>
               <th>Jmeno</th>
