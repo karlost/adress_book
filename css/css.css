@@ -1,0 +1,28 @@
+body {
+    margin: 15%;
+}
+#adresar {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#adresar td, #adresar th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#adresar tr:nth-child(even){background-color: #f2f2f2;}
+
+#adresar tr:hover {background-color: #ddd;}
+
+#adresar th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #000000;
+  color: white;
+}
+input[type=text]:focus {
+  background-color: lightblue;
+}
