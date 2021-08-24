@@ -52,7 +52,7 @@ $sql = "INSERT INTO adresar (jmeno,prijmeni, telefon, email, poznamka)
 VALUES ('$jmeno','$prijmeni', '$telefon', '$email' , '$poznamka')";
 
 if ($conn->query($sql) === TRUE) {
-  echo "Nový kontakt Přidan";
+    header("location:/index.php");  
 } else {
   echo "Chyba: " . $sql . "<br>" . $conn->error;
 }

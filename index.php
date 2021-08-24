@@ -70,7 +70,7 @@ if(isset($_GET['id'])) {
     echo "chyba při odstranovaní kontaktu : " . $conn->error;
   }
   {  
-    header("location:/kontakt-od");  
+    header("location:/index.php");  
   } 
   $conn->close();
    }
