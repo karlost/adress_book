@@ -6,8 +6,6 @@
 <title>Upravit Kontakt</title>
 </head>
 <body>
-
-
 <?php
 
 include 'mysql.php';

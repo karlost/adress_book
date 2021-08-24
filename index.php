@@ -1,6 +1,3 @@
-<?php 
-
-?>
 <html>
     <head>
       <meta charset="UTF-8">
@@ -15,8 +12,7 @@
     </head>
     <body>
      <a href="pridat.php">Přidat Kontakt</a>
-
-      <table id="adresar">
+ <table id="adresar">
             <tr>
               <th>Jmeno</th>
               <th>Přijmění</th>
@@ -24,8 +20,7 @@
               <th>E-Mail</th>
               <th>Poznámka</th>
               <th>akce</th>
-            </tr>
-            
+            </tr>    
       <?php
       
 include 'mysql.php';
@@ -54,8 +49,6 @@ if ($result->num_rows > 0) {
             </tr>
             
           ';
-      
-      
     }
   
 } else {
